@@ -28,7 +28,7 @@ const GiftCards = () => {
   };
 
   return (
-    <div className="flex w-full justify-center my-10">
+    <div className=" flex lg:flex-row flex-col w-full justify-center my-10">
       <Carousel>
         {giftCards.map((card) => (
           <img key={card} src={card}/>
@@ -41,7 +41,7 @@ const GiftCards = () => {
         </div>
         <div>
           <p className='font-semibold text-md'>Denominações</p>
-          <div className='flex'>
+          <div className='flex flex-col md:flex-row'>
             {cardsValues.map((value) => (
               <div
                 onClick={() => setCurrentValue(value)}

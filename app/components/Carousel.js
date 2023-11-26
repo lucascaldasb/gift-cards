@@ -20,7 +20,7 @@ export default function Carousel({
   }, [autoSlide, autoSlideInterval, next])
 
   return (
-    <div className="overflow-hidden relative rounded-md max-w-md">
+    <div className="overflow-hidden relative rounded-md lg:max-w-md max-w-xs lg:mx-0 mx-auto">
       <div
         className="flex transition-transform ease-out duration-500"
         style={{ transform: `translateX(-${curr * 100}%)` }}
