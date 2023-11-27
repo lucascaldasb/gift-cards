@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Carousel from './Carousel';
 
 const GiftCards = () => {
-  const [currentValue, setCurrentValue] = useState('R$ 25,00')
+  const [currentValue, setCurrentValue] = useState('R$ 25.00')
   const giftCards = [
     '/card25.png',
     '/card35.png',
