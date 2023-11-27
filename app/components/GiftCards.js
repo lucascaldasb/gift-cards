@@ -24,7 +24,16 @@ const GiftCards = () => {
   ]
 
   const handleWhatsAppClick = () => {
-    window.location.href = `https://w.app/naturajac`;
+    const messageMap = {
+      25: 'https://w.app/naturajac25',
+      35: 'https://w.app/naturajac35',
+      50: 'https://w.app/naturajac50',
+      75: 'https://w.app/naturajac75',
+      100: 'https://w.app/naturajac100',
+      150: 'https://w.app/naturajac150'
+    }
+
+    window.location.href = messageMap[currentValue];
   };
 
   return (
