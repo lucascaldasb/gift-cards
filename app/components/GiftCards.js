@@ -25,12 +25,12 @@ const GiftCards = () => {
 
   const handleWhatsAppClick = () => {
     const messageMap = {
-      25: 'https://w.app/naturajac25',
-      35: 'https://w.app/naturajac35',
-      50: 'https://w.app/naturajac50',
-      75: 'https://w.app/naturajac75',
-      100: 'https://w.app/naturajac100',
-      150: 'https://w.app/naturajac150'
+      'R$ 25.00': 'https://w.app/naturajac25',
+      'R$ 35.00': 'https://w.app/naturajac35',
+      'R$ 50.00': 'https://w.app/naturajac50',
+      'R$ 75.00': 'https://w.app/naturajac75',
+      'R$ 100.00': 'https://w.app/naturajac100',
+      'R$ 150.00': 'https://w.app/naturajac150'
     }
 
     window.location.href = messageMap[currentValue];
